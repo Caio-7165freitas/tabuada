@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="tab.png">
+    <title>Tabuada Online</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: darkgreen;
+            font-size: 40px;
+            font-family:cursive;
+            text-shadow: 2px 3px rgb(133, 167, 8);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabuada Online</h1>
+    <p>Escolha um Numero para ver a Tabuada:</p>
+    <label for="Numero"></label>
+    <select id="Numero">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+
+
+
+    </select>
+    <br><br>
+    <button onclick="Exibir()">Exibir</button>
+    <button onclick="limpar()">Limpar</button>
+    <br>
+    <br>
+    <hr>
+    <div id='resposta' style='display:inline'></div>
+    <script src="TabScript.js"></script>
+</body>
+
+</html>
